@@ -1,13 +1,13 @@
-# distr-multi-fit
+# distrmultifit
 
-The multi_fit.R builds upon the fitdistrplus R package to:
+The ```multi_fit.R``` builds upon the fitdistrplus R package to:
 
 - Fit multiple distributions
 - Compute the Corrected AIC, difference in AIC (information loss)  and Akaike weights for each fitted distribution.
 - Rank the distributions based on the AIC metrics
 - Generate Goodness-of-Fit (GOF) plots for the distributions specified.
 
-A paper (accepted for publication) demonstrates the use of multi_fit.R for the application of identifying an appropriate distribution for a set of wall U-value measurements from English homes. However, the method can be applied to any case where multiple distributions are to be fitted and compared.  Use ```demo_beyond_normal.R``` to reproduce the published work or adjust it to fit your own analysis. The method is adapted from Delignette-Muller and Durang (2015).
+A paper (accepted for publication) demonstrates the use of ```multi_fit.R``` for the application of identifying an appropriate distribution for a set of wall U-value measurements from English homes. However, the method can be applied to any case where multiple distributions are to be fitted and compared.  Use ```demo_beyond_normal.R``` to reproduce the published work or adjust it to fit your own analysis. The method is adapted from Delignette-Muller and Durang (2015).
 
 If you are using this script for your own analysis, please acknowledge it by referencing the published paper using the following reference:
 
